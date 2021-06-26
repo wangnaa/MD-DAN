@@ -2,11 +2,11 @@
 
 ##  Introduction
 
-Speeding up Magnetic Resonance Imaging (MRI) is an inevitable task in capturing multi-contrast MR images for medical diagnosis. In MRI, some sequences, e.g., in T2 weighted imaging, require long
+Speeding up Magnetic Resonance Imaging (MRI) is an inevitable task in capturing multi-contrast MR images for medical diagnosis. In MRI, some sequences, e.g., in T2 weighted imaging, require long
 scanning time, while T1 weighted images are captured by short-time sequences. To accelerate MRI, in this paper, we propose a model-driven
 deep attention network, dubbed as MD-DAN, to reconstruct highly undersampled long-time sequence MR image with the guidance of a certain
 short-time sequence MR image. MD-DAN is a novel deep architecture
-inspired by the iterative algorithm optimizing a novel MRI reconstruction model regularized by cross-contrast prior using a guided contrast image. The network is designed to automatically learn cross-contrast prior
+inspired by the iterative algorithm optimizing a novel MRI reconstruction model regularized by cross-contrast prior using a guided contrast image. The network is designed to automatically learn cross-contrast prior
 by learning corresponding proximal operator. The backbone network to
 model the proximal operator is designed as a dual-path convolutional
 network with channel and spatial attention modules. Experimental results on a brain MRI dataset substantiate the superiority of our method
